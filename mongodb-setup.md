@@ -1,6 +1,6 @@
 # MongoDB Atlas setup
 
-This workshop requires a MongoDB Atlas account and a cluster with a sample dataset.
+This workshop requires a [MongoDB Atlas](https://cloud.mongodb.com) account and a cluster with a sample dataset.
 
 MongoDB Atlas free tier is sufficient for the scope of the workshop. 
 Also, a single MongoDB cluster can be shared by multiple workshop attendees, as it is used as read-only source.
@@ -9,7 +9,7 @@ Also, a single MongoDB cluster can be shared by multiple workshop attendees, as 
 
 These are the steps to create a new, free MongoDB Atlas account, create a MongoDB cluster with sample data, and enable access to the cluster from Confluent Cloud Flink.
 
-1. Create account, set 2PA
+1. Create account, set 2FA
 2. Create a Cluster
     - Free tier
     - AWS, same region as workshop
